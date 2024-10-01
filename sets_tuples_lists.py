@@ -52,8 +52,18 @@ capitals = {"USA":"Washington D.C.",
 #capitals.popitem()
 #capitals.clear
 
+#keys = capitals.keys()
+#print(keys)
+#for key in capitals.keys():
+#    print()
 
+#values = capitals.values()
+#for value in capitals.values():
+ #   print(value)
 
+items = capitals.items()
+for key, value in capitals.items():
+    print(f"{key}: {value}")
 
 # you can reassign value using this:
 # fruits[1] = "pineapple"
